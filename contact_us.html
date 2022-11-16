@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us</title>
+      <!---reCaptcha API-->
+      <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!--- Fontawsome Links -->
+      <link rel="stylesheet" href="./assets/css/all.min.css">
+      <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+      <!---Link CSS Styling -->
+      <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+      <link rel="stylesheet" href="./assets/css/media.css" type="text/css">
+   </head>
+   <body>
+      <!----Sidebar Menu-->
+      <div class="sb-body-container">
+         <div class="sidebar_container" id="sidebar_open">
+            <div class="sidebar_main_wrapper">
+               <div class="sidebar_head">
+                  <div class="sidebar_img_box">
+                     <img src="./assets/images/main-logo.jpg" alt="group" class="sidebarlogo">
+                  </div>
+                  <div class="sidebar_close">
+                     <span class="close_border" id="close_cross"><img src="./assets/images/close_menu.png" alt="close_menu" class="close_menu-img"></span>
+                  </div>
+               </div>
+               <div class="sidebar_body">
+                  <div class="sidebar_nav_box">
+                     <ul class="un_sidebar">
+                        <li class="sidebar_list"><a href="#" class="sidebar_list_link">Home</a></li>
+                        <li class="sidebar_list"><a href="./service.html" class="sidebar_list_link">Services</a></li>
+                        <li class="sidebar_list dropdown_sdlist"><a href="#" class="sidebar_list_link sddropbtn">Resources</a></li>
+                        <li class="sidebar_list"><a href="./about_us.html" class="sidebar_list_link">About Us</a></li>
+                        <li class="sidebar_list"><a href="./career_page.html" class="sidebar_list_link">Career</a></li>
+                        <li class="sidebar_list"><a href="./contact_us.html" class="sidebar_list_link">Contact Us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!----- Header --->
+      <header class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col md-12">
+                  <div class="primary_header">
+                     <div class="logo_box">
+                        <a href="#" class="nav-brand">
+                        <span class="nav-brand_inner-box">
+                        <img src="./assets/images/main-logo.jpg" alt="logo" class="logo_img">
+                        </span>
+                        </a>
+                     </div>
+                     <nav class="primary_menu">
+                        <ul>
+                           <li><a href="./index.html" class="primary_nav-menu">Home</a></li>
+                           <li class="service-dropdown" id="service_dropbtn">
+                              <a href="./service.html" class="service_dropbtn primary_nav-menu">Services</a>
+                              <!---Service Mega Menu-->
+                              <div class="mm-s-menu-container">
+                                 <div class="container">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="mm_service-g-wrapper" id="mm_service-g-item">
+                                             <div class="service_g-item">
+                                                <div class="service_g-content-wrapper">
+                                                   <h2 class="mm-title-head">Our Service</h2>
+                                                   <p>Customized digital solutions to help clients build their competitive edge.</p>
+                                                   <div class="vector_img">
+                                                      <img src="./assets/images/undraw_Services_re_hu5n.png" alt="service-vector" class="mm_s-vector">
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="service_g-item">
+                                                <div class="service_g-content-wrapper service-one_wrapper">
+                                                   <h2 class="s_one">Web Solution</h2>
+                                                   <ul class="sub-service-link">
+                                                      <li><a href="#">Web Design</a></li>
+                                                      <li><a href="#">Web Development</a></li>
+                                                      <li><a href="#">Hosting</a></li>
+                                                      <li><a href="#">SEO</a></li>
+                                                      <li><a href="#">Domain registration</a></li>
+                                                      <li><a href="#">Redesign and Redevelopment</a></li>
+                                                      <li><a href="#">Maintainance and testing</a></li>
+                                                      <li><a href="#">Control Panel</a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                             <div class="service_g-item">
+                                                <div class="s_g-content-flex-wrapper">
+                                                   <div class="service_g-content-wrapper service-two_wrapper">
+                                                      <h2 class="s_one">Software</h2>
+                                                      <ul class="sub-service-link">
+                                                         <li><a href="#">Integrated System Design</a></li>
+                                                         <li><a href="#">Integrated System Development</a></li>
+                                                      </ul>
+                                                   </div>
+                                                   <div class="service_g-content-wrapper service-three_wrapper">
+                                                      <h2 class="s_one">Mobile App</h2>
+                                                      <ul class="sub-service-link">
+                                                         <li><a href="#">Mobile System Design</a></li>
+                                                         <li><a href="#">Mobile System Development</a></li>
+                                                      </ul>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="service_g-item">
+                                                <div class="service_g-content-wrapper service-one_wrapper">
+                                                   <h2 class="s_one">2D/3D Design</h2>
+                                                   <ul class="sub-service-link">
+                                                      <li><a href="#">2D/3D Isometric games</a></li>
+                                                      <li><a href="#">3D Animation</a></li>
+                                                      <li><a href="#">Letterheads</a></li>
+                                                      <li><a href="#">Business Cards</a></li>
+                                                      <li><a href="#">Brouchers</a></li>
+                                                      <li><a href="#">Logos</a></li>
+                                                      <li><a href="#">Books and Magzines</a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="resources_dropdown">
+                              <a href="#" class="res_dropbtn primary_nav-menu">Resources</a>
+                              <!---Resource Mega Menu-->
+                              <div class="mm-r-menu-container">
+                                 <div class="container">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="mm_resource-g-wrapper" id="mm_resource-g-item">
+                                             <div class="service_g-item">
+                                                <div class="resource_g-content-wrapper">
+                                                   <h2 class="mm-title-head">Resources</h2>
+                                                   <p>Explore data-rich insights from our content experts and tech geeks, bringing interesting updates from across the globe.
+                                                   </p>
+                                                </div>
+                                             </div>
+                                             <div class="resource_g-item">
+                                                <div class="h4">Explore</div>
+                                                <a href="./blog.html" class="resource_g-content-wrapper service-one_wrapper">
+                                                   <h2 class="s_one">Blog</h2>
+                                                   <p class="one_content">Stuff that Matters</p>
+                                                </a>
+                                                <a href="#" class="resource_g-content-wrapper service-one_wrapper">
+                                                   <h2 class="s_one">Our News and Events</h2>
+                                                   <p class="one_content">Stay informed about us</p>
+                                                </a>
+                                             </div>
+                                             <div class="resource_g-item res_g-item-second">
+                                                <div class="r_g-content-flex-wrapper">
+                                                   <a href="#" class="resource_g-content-wrapper resource-two_wrapper">
+                                                      <h2 class="s_one">Meet Our leads</h2>
+                                                      <p class="one_content">Our expert Team leads</p>
+                                                   </a>
+                                                   <a href="#" class="resource_g-content-wrapper resource-three_wrapper">
+                                                      <h2 class="s_one">Case Studies</h2>
+                                                      <p class="one_content">From our media desk</p>
+                                                   </a>
+                                                </div>
+                                             </div>
+                                             <div class="resource_g-item res_g-item-second">
+                                                <a href="#" class="resource_g-content-wrapper resource-one_wrapper">
+                                                   <h2 class="s_one">Partnerships</h2>
+                                                   <p class="one_content">Our Partnerships worldwide nation</p>
+                                                </a>
+                                                <a href="#" class="resource_g-content-wrapper resource-one_wrapper">
+                                                   <h2 class="s_one">Podcast</h2>
+                                                   <p class="one_content">Global tech events</p>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li><a href="./about_us.html" class="primary_nav-menu">About Us</a></li>
+                           <li><a href="./career_page.html" class="primary_nav-menu">Career</a></li>
+                           <li class="h-contact-btn"><a href="./contact_us.html" class="contact_us-nav">Contact Us</a></li>
+                        </ul>
+                     </nav>
+                     <div class="menu_toggle-button" id="menu_toggle-btn">
+                        <span class="bar-btn"><img src="./assets/images/menu_bar.png" alt="bar_menu" class="bar_menu-img"></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--- Main Section --->
+      <main>
+         <!---About Us Banner Container-->
+         <section class="contact_hero-banner">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="secondary_about_slider">
+                        <div class="page-title">
+                           <div class="container">
+                              <h1>Contact Us</h1>
+                              <h6>Cognitive IT Solution</h6>
+                              <p>We’ve all heard how crucial it is to set intentions, goals and targets. Powerful goals electrify us. Clear intentions energize and pull us forward.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="contact_us-form">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="main_container">
+                        <div class="main_card-container">
+                           <div class="main-card_content">
+                              <h3>Contact Us</h3>
+                              <div class="cog_contact-info-container">
+                                 <div class="social-box">
+                                    <div class="social_icon-container">
+                                       <span class="social_icon"><i class="fas fa-map-marker-alt"></i></span> &nbsp;
+                                       <span class="social_content"> 413 Park avenue, Near Downtown Brampton, Ontario</span>
+                                    </div>
+                                    <div class="social_icon-container">
+                                       <span class="social_icon"><i class="fas fa-envelope"></i></span> &nbsp;
+                                       <span class="social_content"> abc@gmail.com </span>
+                                    </div>
+                                    <div class="social_icon-container">
+                                       <span class="social_icon"><i class="fas fa-phone-alt"></i></span> &nbsp;
+                                       <span class="social_content"> +10311223344</span>
+                                    </div>
+                                    <div class="social_icon-container">
+                                       <span class="social_icon"><i class="fas fa-fax"></i></span> &nbsp;
+                                       <span class="social_content"> +3356 1589 2100 </span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="sub_card-container">
+                           <div class="sub_card-head">
+                              <span class="sub_card-mh">Get In Touch</span>
+                              <span class="sub_card-sh">Feel free to drop us a line below!</span>
+                           </div>
+                           <div class="sub_card-form-wrapper">
+                              <form action="#" id="form-control"   >
+                                 <div class="form-group">
+                                    <input type="text" class="fname" id="fullname" placeholder="Your Name">
+                                    <span id="uname-err"></span>
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="email" class="user_mail" id="email" placeholder="Enter your Email address">
+                                    <span id="umail-err"></span>
+                                 </div>
+                                 <div class="form-group">
+                                    <textarea name="comment" id="user_comment" cols="30" rows="10" placeholder="Typing your message here..." class="comment-field"></textarea>
+                                    <span id="msg-err"></span>
+                                 </div>
+                                 <!-- <div class="g-recaptcha" data-sitekey="6Ld5_5IiAAAAAAl2a-uaz6i1K1XZOZKnl7zq24Oj"></div> -->
+                                 <button class="primary-btn">Submit</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!----Map Container --->
+         <div class="visual-container">
+            <div class="map_container">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14479.802445836183!2d67.05838565!3d24.86553635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1654511584108!5m2!1sen!2s" 
+                  class="map" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+      </main>
+      <!---Footer ----->
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_container-wrapper">
+                     <div class="footer_up-wrapper">
+                        <div class="foo-logo-box">
+                           <a href="#" class="nav-brand">
+                           <span class="nav-brand_inner-box">
+                           <img src="./assets/images/main-logo.jpg" alt="logo" class="logo_img">
+                           </span>
+                           </a>
+                        </div>
+                        <div class="foo-social-icon">
+                           <div class="foo-social-flex-wrapper">
+                              <span class="footer-social"><i class="fab fa-linkedin"></i></span>
+                              <span class="footer-social"><i class="fab fa-youtube"></i></span>
+                              <span class="footer-social"><i class="fab fa-facebook"></i></span>
+                              <span class="footer-social"><i class="fab fa-instagram"></i></span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_down-wrapper">
+                        <div class="footer-col footer-col-1">
+                           <h4>About Us</h4>
+                           <ul>
+                              <li><a href="#" class="foo_links">about us</a></li>
+                              <li><a href="#" class="foo_links">our vision</a></li>
+                              <li><a href="#" class="foo_links">meet the team</a></li>
+                              <li><a href="#" class="foo_links">Milestone</a></li>
+                              <li><a href="#" class="foo_links">Our location</a></li>
+                              <li><a href="#" class="foo_links">Blog</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-col footer-col-2">
+                           <h4>Products and Service</h4>
+                           <ul>
+                              <li><a href="#" class="foo_links">Digital Services</a></li>
+                              <li><a href="#" class="foo_links">IT Staff</a></li>
+                              <li><a href="#" class="foo_links">Staff Augmentation</a></li>
+                              <li><a href="#" class="foo_links">Printing and Package</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-col footer-col-3">
+                           <h4>Useful Links</h4>
+                           <ul>
+                              <li><a href="#" class="foo_links">privacy policy</a></li>
+                              <li><a href="#" class="foo_links">Terms and conditions</a></li>
+                              <li><a href="#" class="foo_links">Contact Us</a></li>
+                              <li><a href="#" class="foo_links">Agreements and License</a></li>
+                           </ul>
+                        </div>
+                        <div class="footer-col foo-last-col">
+                           <h4>Approach Us</h4>
+                           <div class="social-links">
+                              <div class="social-box">
+                                 <div class="social_icon-container">
+                                    <span class="social_icon"><i class="fas fa-map-marker-alt"></i></span> &nbsp;
+                                    <span class="footer_social_content">
+                                       <h1>Location</h1>
+                                       <p> 413 Park avenue, Near Downtown Brampton, Ontario</p>
+                                    </span>
+                                 </div>
+                                 <div class="social_icon-container">
+                                    <span class="social_icon"><i class="fas fa-envelope"></i></span> &nbsp;
+                                    <span class="footer_social_content">
+                                       <h1>Email</h1>
+                                       <p> abc@gmail.com</p>
+                                    </span>
+                                 </div>
+                                 <div class="social_icon-container">
+                                    <span class="social_icon"><i class="fas fa-phone-alt"></i></span> &nbsp;
+                                    <span class="footer_social_content">
+                                       <h1>Contact Number</h1>
+                                       <p> +10311223344</p>
+                                    </span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!---second footer -->
+      <div class="second_footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="second_footer-wrapper">
+                     <p>© 2022 Cognative IT Solution . All Rights Reserved.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!--- Jquery cdn-->
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <!---custom js file-->
+   <script src="./assets/js/app.js"></script>
+</html>
