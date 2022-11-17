@@ -16,6 +16,18 @@
       <link rel="stylesheet" href="./assets/css/media.css" type="text/css">
    </head>
    <body>
+      <!---Top head--->
+      <div class="top_head">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <a href="#" class="top_head-link">
+                  <span><i class="fas fa-user"></i></span>
+                  Login</a>
+               </div>
+            </div>
+         </div>
+      </div>
       <!----Sidebar Menu-->
       <div class="sb-body-container">
          <div class="sidebar_container" id="sidebar_open">
@@ -342,12 +354,9 @@
                               <h5 class="label-heading">Upload Resume</h5>
                            </div>
                            <div class="form-group file-upload-wrap">
-                              <div class="file-upload__label"><button type="button" class="uploadtextfield" id="uploadtextfield">Browse</button>
-                                 <span class="wpcf7-form-control-wrap resume"><input type="file" name="resume" size="40" class="wpf-106" id="fileuploadfield" accept=".pdf,.docx,.doc" aria-required="true" aria-invalid="false">
-                                 </span>
+                              <div class="file-upload__label">     
+                                 <input class="custom-file-input" type="file">
                               </div>
-                              <span class="resume-upload-right">
-                              <span>File Name:</span><span class="file-name">No File Selected</span></span> 
                            </div>
                            <div class="form-group suitable-files">Suitable files are doc, docx &amp; pdf</div>
                            <div class="form-group candidate_form-group">

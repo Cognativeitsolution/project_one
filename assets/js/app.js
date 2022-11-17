@@ -96,10 +96,10 @@ var swiperhero = new Swiper(".testimonial-banner", {
   slidesPerView: 3,
   speed: 800,
 
-//  pagination: {
-// el: '.swiper-pagination',
-// clickable: true,
-// },
+ pagination: {
+el: '.swiper-pagination',
+clickable: true,
+},
 navigation: {
   nextEl: ".swiper-button-next",
   prevEl: ".swiper-button-prev",
@@ -196,6 +196,7 @@ function showErrorMessage(){
 $('#nav_un-list a').click(function (evt) {
   evt.preventDefault();
   $(this).tab('show');
+  $(this).siblings().css({'display':'block'});
 });
 
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {

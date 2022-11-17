@@ -16,8 +16,24 @@
       <!---Link CSS Styling -->
       <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
       <link rel="stylesheet" href="./assets/css/media.css" type="text/css">
+
+      <!---AOS animation-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
    </head>
    <body>
+      <!---Top head--->
+      <div class="top_head">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <a href="#" class="top_head-link">
+                  <span><i class="fas fa-user"></i></span>
+                  Login</a>
+               </div>
+            </div>
+         </div>
+      </div>
       <!----Sidebar Menu-->
       <div class="sb-body-container">
          <div class="sidebar_container" id="sidebar_open">
@@ -224,7 +240,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="short_intro_grid-wrapper">
-                        <div class="si_content-item">
+                        <div class="si_content-item" data-aos="fade-right">
                            <div class="tertiary_heading">
                               <span class="th_main-head">About <span class="th_name">Cognitive</span> <br> IT Solution</span>
                            </div>
@@ -233,7 +249,7 @@
                               Authoritatively grow goal is oriented markets through ompletely generate technically sound content without robust user
                            </div>
                         </div>
-                        <div class="si_img-item">
+                        <div class="si_img-item" data-aos="fade-left">
                            <figure>
                               <img src="./assets/images/about_us.jpg" alt="about-us" class="about-us-img">
                            </figure>
@@ -489,4 +505,10 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
    <!---custom js file-->
    <script src="./assets/js/app.js"></script>
+
+      <!---AOS JS link and initial code-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
 </html>
