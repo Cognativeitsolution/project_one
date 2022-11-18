@@ -210,10 +210,6 @@
 	}
 
 	/* ABOUT US */
-	/* .prod_grid_container {
-		grid-template-columns: repeat(2, 1fr);
-	} */
-
 	.page-title {
 		width: 100%;
 	}
@@ -311,6 +307,10 @@
 
 	.link_google>img {
 		top: 7px;
+	}
+
+	.foo-logo-box {
+		flex: 0 0 150px;
 	}
 }
 

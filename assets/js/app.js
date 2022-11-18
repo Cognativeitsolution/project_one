@@ -122,7 +122,7 @@ navigation: {
      spaceBetween: 40,
    },
    1024: {
-   //   slidesPerView: 5,
+     slidesPerView: 3,
      spaceBetween: 50,
    },
  },
